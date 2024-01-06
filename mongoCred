@@ -1,0 +1,6 @@
+user: johneldrintolentino
+pass: FKd7G2B8cU7DQUPr
+
+connection string:
+
+mongodb+srv://johneldrintolentino:FKd7G2B8cU7DQUPr@cluster0.twtpwoc.mongodb.net/auth_basics?retryWrites=true&w=majority
