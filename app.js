@@ -62,6 +62,13 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.urlencoded({ extended: false }));
 
+//DECLARING LOCAL VARIABLE
+app.use((req,res,next)=>{
+    res.locals.currentUser = req.user;
+    next();
+});
+
+
 app.get('/', (req,res) => {
     res.render('index', {user: req.user});
 });
